@@ -16,7 +16,7 @@ import session from 'express-session';
 import passport from 'passport'
 dotenv.config();
 const app = express();
-const port = process.env.PORT 
+const port = process.env.PORT || 5000 
 app.use(express.json());
 app.use(cors({origin:process.env.cors_origin}))
 
@@ -61,6 +61,6 @@ app.get('/api/user/health', (req, res) => {
 
 
 console.log("hii");
-/*app.listen(port, () => {
+app.listen(port, () => {
    console.log(`Listening on port ${port}`)
-})*/
+})
