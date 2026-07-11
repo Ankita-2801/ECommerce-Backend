@@ -127,7 +127,13 @@ cors_origin=http://localhost:5173
 * Frontend- https://e-commerce-frontend-psi-self.vercel.app
 
 ## 👩‍💻 Author
- *Ankita Paul*
--B.Tech in Information Technology
--Narula Institute of Technology
-  
+```
+ Ankita Paul
+ - B.Tech in Information Technology, Narula Institute of Technology.
+
+Srijeeta Biswas*
+- B.Tech in Artificial Intelligence & Machine Learning, Narula Institute of Technology.
+
+Anushka Banik
+- B.Tech in Computer Science & Engineering, Techno Bengal Institute of Technology.
+  ```
