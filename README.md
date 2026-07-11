@@ -28,7 +28,6 @@ A robust, scalable RESTful API built to power modern e-commerce applications. It
 - **Database:** MongoDB Atlas
 - **Authentication:** JWT, Google OAuth
 - **Other Libraries:**
-- 
   *react*
   *react-dom*
   *react-router-dom*
