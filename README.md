@@ -28,6 +28,7 @@ A robust, scalable RESTful API built to power modern e-commerce applications. It
 - **Database:** MongoDB Atlas
 - **Authentication:** JWT, Google OAuth
 - **Other Libraries:**
+  '''
   *react*
   *react-dom*
   *react-router-dom*
@@ -46,7 +47,7 @@ A robust, scalable RESTful API built to power modern e-commerce applications. It
   *nodemailer*
   *passport*
   *passport-google-oauth20*
-  
+  '''
 
 ## 🛠️ Getting Started
 
