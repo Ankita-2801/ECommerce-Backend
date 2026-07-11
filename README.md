@@ -61,14 +61,20 @@ A robust, scalable RESTful API built to power modern e-commerce applications. It
 - Code Editor (recommended: Visual Studio Code)
 
 ### Installation & Setup
+
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Ankita-2801/ECommerce-Backend]
+   git clone https://github.com/Ankita-2801/ECommerce-Backend
 
 2. Install Dependencies: npm install
-3. Create a .env file:
    
+3. Create a `.env` file:
+
+Create a `.env` file in the project root and add the following variables:
+
+```env
 PORT=5000
+
 MONGO_admin=your_mongodb_connection_string
 MONGO_user=your_mongodb_connection_string
 
@@ -85,11 +91,13 @@ CLOUD_API_SECRET=cloudinary_secret_key
 
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
+
 CALL_BACK_URL=http://localhost:5000/api/auth/google
 
 OSM_API_KEY=your_osm_apiKey
 
-cors_origin=https://localhost:5173
+cors_origin=http://localhost:5173
+```
 
 4. Run the server: npm run dev, Server runs at http://localhost:5000
 
